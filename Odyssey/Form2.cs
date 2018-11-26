@@ -14,6 +14,18 @@ namespace Odyssey
     {
         Song sng;
         private Controller controller;
+        private bool upload;
+        private bool metadata;
+
+        public void setMetadata(bool flag)
+        {
+            metadata = flag;
+        }
+
+        public void setBool(bool flag)
+        {
+            upload = flag;
+        }
 
         public void SetController(Controller pController)
         {
@@ -42,13 +54,30 @@ namespace Odyssey
             sng.set_director(textBox3.Text);
             sng.set_time(textBox4.Text);
             sng.set_description(textBox5.Text);
-            controller.setMetadata(textBox2.Text,textBox3.Text,textBox4.Text,textBox5.Text,textBox1.Text);
+            
+            if (upload)
+            {
+                controller.setMetadata(textBox2.Text, textBox3.Text, textBox4.Text, textBox5.Text, textBox1.Text);
+                controller.uploadVideo();
+            }
+            else if (metadata)
+            {
+                controller.setMetadata(textBox2.Text, textBox3.Text, textBox4.Text, textBox5.Text, textBox1.Text);
+                controller.updateMetadata();
+            }
+            upload = false;
+            metadata = false;
             this.Close();
         }
 
         private void Form2_Load(object sender, EventArgs e)
         {
             this.sng = Form1.Temp_song;
+            textBox1.Text = sng.get_date();
+            textBox2.Text = sng.get_name();
+            textBox3.Text = sng.get_director();
+            textBox4.Text = sng.get_time();
+            textBox5.Text = sng.get_description();
         }
     }
 }

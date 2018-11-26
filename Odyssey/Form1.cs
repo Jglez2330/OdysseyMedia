@@ -43,9 +43,21 @@ namespace Odyssey
 
         private void Select_Video_Click(object sender, EventArgs e)
         {
+            controller.deleteVideo(songs[(lstSongs.SelectedIndex)].get_name());
+
+        }
+
+        public void deleteSuccess()
+        {   
             int temp = lstSongs.SelectedIndex;
             lstSongs.Items.RemoveAt(temp);
             songs.RemoveAt(temp);
+            MessageBox.Show("The video was deleted");
+        }
+
+        public void deleteFail()
+        {
+            MessageBox.Show("Can not delete the video");
         }
 
         private void bunifuImageButton2_Click(object sender, EventArgs e)
@@ -109,6 +121,8 @@ namespace Odyssey
         {
             temp_song=songs[lstSongs.SelectedIndex];
             Form2 f2 = new Form2();
+            f2.setMetadata(true);
+            f2.SetController(this.controller);
             f2.ShowDialog();
             lstSongs.Items[lstSongs.SelectedIndex] = temp_song.get_name();
         }
@@ -120,12 +134,12 @@ namespace Odyssey
             temp_song = new Song();
             if (opn.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
-                temp_song.set_path(opn.FileName);
                 controller.setVideoBytes(opn.FileName);
                 Form2 f2 = new Form2();
                 f2.SetController(this.controller);
+                f2.setBool(true);
                 f2.ShowDialog();
-                controller.uploadVideo();
+                
 
             }
 
@@ -143,7 +157,17 @@ namespace Odyssey
         {
             MessageBox.Show("The video could not be uploaded");
         }
-        
+
+        public void playDenied()
+        {
+            MessageBox.Show("Can not play the video");
+        }
+
+        public void updateMetadataSucces()
+        {
+            MessageBox.Show("The metadata was updated successfully");
+        }
+
 
         private void lstSongs_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -155,8 +179,13 @@ namespace Odyssey
 
         private void lstSongs_DoubleClick(object sender, EventArgs e)
         {
-            this.media.URL = songs[(lstSongs.SelectedIndex)].get_path();
-            //Debug.WriteLine("DoubleClick event fired on ListBox");
+
+            controller.playVideo(songs[(lstSongs.SelectedIndex)].get_name());
+        }
+
+        public void playConfirm(string videoPath)
+        {
+            this.media.URL = videoPath;
         }
 
 

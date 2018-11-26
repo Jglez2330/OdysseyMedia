@@ -76,7 +76,7 @@
             this.panel3.Controls.Add(this.bunifuImageButton2);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel3.Location = new System.Drawing.Point(0, 488);
-            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(901, 96);
             this.panel3.TabIndex = 2;
@@ -116,7 +116,7 @@
             this.bunifuImageButton5.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton5.Image")));
             this.bunifuImageButton5.ImageActive = null;
             this.bunifuImageButton5.Location = new System.Drawing.Point(730, 5);
-            this.bunifuImageButton5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuImageButton5.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuImageButton5.Name = "bunifuImageButton5";
             this.bunifuImageButton5.Size = new System.Drawing.Size(53, 58);
             this.bunifuImageButton5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -130,7 +130,7 @@
             this.bunifuImageButton4.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton4.Image")));
             this.bunifuImageButton4.ImageActive = null;
             this.bunifuImageButton4.Location = new System.Drawing.Point(855, 5);
-            this.bunifuImageButton4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuImageButton4.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuImageButton4.Name = "bunifuImageButton4";
             this.bunifuImageButton4.Size = new System.Drawing.Size(44, 58);
             this.bunifuImageButton4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -144,7 +144,7 @@
             this.bunifuImageButton3.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton3.Image")));
             this.bunifuImageButton3.ImageActive = null;
             this.bunifuImageButton3.Location = new System.Drawing.Point(676, 5);
-            this.bunifuImageButton3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuImageButton3.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuImageButton3.Name = "bunifuImageButton3";
             this.bunifuImageButton3.Size = new System.Drawing.Size(44, 58);
             this.bunifuImageButton3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -158,7 +158,7 @@
             this.bunifuImageButton2.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton2.Image")));
             this.bunifuImageButton2.ImageActive = null;
             this.bunifuImageButton2.Location = new System.Drawing.Point(792, 5);
-            this.bunifuImageButton2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuImageButton2.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuImageButton2.Name = "bunifuImageButton2";
             this.bunifuImageButton2.Size = new System.Drawing.Size(53, 58);
             this.bunifuImageButton2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -174,7 +174,7 @@
             this.panel1.Controls.Add(this.panel4);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel1.Location = new System.Drawing.Point(713, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(188, 488);
             this.panel1.TabIndex = 3;
@@ -189,7 +189,7 @@
             this.lstSongs.FormattingEnabled = true;
             this.lstSongs.ItemHeight = 23;
             this.lstSongs.Location = new System.Drawing.Point(0, 192);
-            this.lstSongs.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.lstSongs.Margin = new System.Windows.Forms.Padding(2);
             this.lstSongs.Name = "lstSongs";
             this.lstSongs.Size = new System.Drawing.Size(188, 296);
             this.lstSongs.TabIndex = 5;
@@ -206,7 +206,7 @@
             this.panel4.Controls.Add(this.bunifuImageButton8);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel4.Location = new System.Drawing.Point(0, 0);
-            this.panel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel4.Margin = new System.Windows.Forms.Padding(2);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(188, 192);
             this.panel4.TabIndex = 6;
@@ -230,7 +230,7 @@
             this.bunifuThinButton22.IdleForecolor = System.Drawing.Color.SeaGreen;
             this.bunifuThinButton22.IdleLineColor = System.Drawing.Color.SeaGreen;
             this.bunifuThinButton22.Location = new System.Drawing.Point(16, 131);
-            this.bunifuThinButton22.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuThinButton22.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuThinButton22.Name = "bunifuThinButton22";
             this.bunifuThinButton22.Size = new System.Drawing.Size(136, 33);
             this.bunifuThinButton22.TabIndex = 6;
@@ -256,7 +256,7 @@
             this.Select_Video.IdleForecolor = System.Drawing.Color.SeaGreen;
             this.Select_Video.IdleLineColor = System.Drawing.Color.SeaGreen;
             this.Select_Video.Location = new System.Drawing.Point(16, 89);
-            this.Select_Video.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Select_Video.Margin = new System.Windows.Forms.Padding(4);
             this.Select_Video.Name = "Select_Video";
             this.Select_Video.Size = new System.Drawing.Size(136, 33);
             this.Select_Video.TabIndex = 3;
@@ -268,7 +268,7 @@
             this.bunifuImageButton6.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton6.Image")));
             this.bunifuImageButton6.ImageActive = null;
             this.bunifuImageButton6.Location = new System.Drawing.Point(124, 10);
-            this.bunifuImageButton6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuImageButton6.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuImageButton6.Name = "bunifuImageButton6";
             this.bunifuImageButton6.Size = new System.Drawing.Size(15, 16);
             this.bunifuImageButton6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -296,7 +296,7 @@
             this.bunifuThinButton21.IdleForecolor = System.Drawing.Color.SeaGreen;
             this.bunifuThinButton21.IdleLineColor = System.Drawing.Color.SeaGreen;
             this.bunifuThinButton21.Location = new System.Drawing.Point(16, 48);
-            this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuThinButton21.Name = "bunifuThinButton21";
             this.bunifuThinButton21.Size = new System.Drawing.Size(136, 33);
             this.bunifuThinButton21.TabIndex = 4;
@@ -308,7 +308,7 @@
             this.bunifuImageButton7.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton7.Image")));
             this.bunifuImageButton7.ImageActive = null;
             this.bunifuImageButton7.Location = new System.Drawing.Point(142, 10);
-            this.bunifuImageButton7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuImageButton7.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuImageButton7.Name = "bunifuImageButton7";
             this.bunifuImageButton7.Size = new System.Drawing.Size(15, 16);
             this.bunifuImageButton7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -322,7 +322,7 @@
             this.bunifuImageButton8.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton8.Image")));
             this.bunifuImageButton8.ImageActive = null;
             this.bunifuImageButton8.Location = new System.Drawing.Point(159, 10);
-            this.bunifuImageButton8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuImageButton8.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuImageButton8.Name = "bunifuImageButton8";
             this.bunifuImageButton8.Size = new System.Drawing.Size(15, 16);
             this.bunifuImageButton8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -339,7 +339,7 @@
             this.panel2.Controls.Add(this.bunifuImageButton1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(713, 59);
             this.panel2.TabIndex = 4;
@@ -373,7 +373,7 @@
             this.bunifuImageButton1.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton1.Image")));
             this.bunifuImageButton1.ImageActive = null;
             this.bunifuImageButton1.Location = new System.Drawing.Point(9, 2);
-            this.bunifuImageButton1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuImageButton1.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuImageButton1.Name = "bunifuImageButton1";
             this.bunifuImageButton1.Size = new System.Drawing.Size(53, 58);
             this.bunifuImageButton1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -406,7 +406,7 @@
             this.Controls.Add(this.media);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";

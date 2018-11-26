@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,6 +11,7 @@ namespace Odyssey
     {
         private Model model;
         private Form1 form1;
+        private string temp_name;
 
         public void SetModel(Model pModel)
         {
@@ -46,5 +48,58 @@ namespace Odyssey
         {
             form1.deniedUpload();
         }
+
+        public void playVideo(string videoName)
+        {
+            temp_name = videoName;
+            model.PlayVideoRequest(videoName);
+        }
+
+        public void playDenied()
+        {
+            form1.playDenied();
+        }
+
+        public void playConfirm (byte[] bytes)
+        {
+            string videoPath = "C:/Users/Fabricio/Desktop" + "/Videos" + "/" + temp_name + ".mp4";
+
+            if(!File.Exists(videoPath))
+            {
+                File.WriteAllBytes(videoPath, bytes);
+                form1.playConfirm(videoPath);
+            }
+            else
+            {
+                form1.playConfirm(videoPath);
+            }
+
+        }
+
+        public void updateMetadata ()
+        {
+            model.UpdateVideoMetadataRequest();
+        }
+
+        public void updateMetadataSucces ()
+        {
+            form1.updateMetadataSucces();
+        }
+
+        public void deleteVideo(string videoName)
+        {
+            model.DeleteVideoRequest(videoName);
+        }
+
+        public void deleteSuccess()
+        {
+            form1.deleteSuccess();
+        }
+
+        public void deleteFail()
+        {
+            form1.deleteFail();
+        }
+
     }
 }
