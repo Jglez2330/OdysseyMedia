@@ -139,11 +139,8 @@ namespace Odyssey
                 f2.SetController(this.controller);
                 f2.setBool(true);
                 f2.ShowDialog();
-                
-
             }
-
-            
+                       
         }
 
         public void confirmUpload()
@@ -187,7 +184,18 @@ namespace Odyssey
         {
             this.media.URL = videoPath;
         }
-
+        void QuickSort(int op)
+        {
+            //Name
+            if (op == 0)
+                songs.Sort((x, y) => x.get_name().CompareTo(y.get_name()));
+            //Date
+            else if (op == 1)
+                songs.Sort((x, y) => x.get_date().CompareTo(y.get_date()));
+            //Director
+            else if (op == 2)
+                songs.Sort((x, y) => x.get_director().CompareTo(y.get_director()));
+        }
 
 
     }

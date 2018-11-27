@@ -37,3 +37,23 @@ C:\Users\Fabricio\source\repos\OdysseyMedia\Odyssey\obj\Debug\Odyssey.csproj.Cor
 C:\Users\Fabricio\source\repos\OdysseyMedia\Odyssey\obj\Debug\Odyssey.csproj.CopyComplete
 C:\Users\Fabricio\source\repos\OdysseyMedia\Odyssey\obj\Debug\Odyssey.exe
 C:\Users\Fabricio\source\repos\OdysseyMedia\Odyssey\obj\Debug\Odyssey.pdb
+S:\League-of-Gems\Taller Unity Tec\OdysseyMedia\Odyssey\bin\Debug\Odyssey.exe.config
+S:\League-of-Gems\Taller Unity Tec\OdysseyMedia\Odyssey\bin\Debug\Odyssey.exe
+S:\League-of-Gems\Taller Unity Tec\OdysseyMedia\Odyssey\bin\Debug\Odyssey.pdb
+S:\League-of-Gems\Taller Unity Tec\OdysseyMedia\Odyssey\bin\Debug\Newtonsoft.Json.dll
+S:\League-of-Gems\Taller Unity Tec\OdysseyMedia\Odyssey\bin\Debug\Bunifu.Core.dll
+S:\League-of-Gems\Taller Unity Tec\OdysseyMedia\Odyssey\bin\Debug\Newtonsoft.Json.xml
+S:\League-of-Gems\Taller Unity Tec\OdysseyMedia\Odyssey\bin\Debug\Interop.WMPLib.dll
+S:\League-of-Gems\Taller Unity Tec\OdysseyMedia\Odyssey\bin\Debug\AxInterop.WMPLib.dll
+S:\League-of-Gems\Taller Unity Tec\OdysseyMedia\Odyssey\obj\Debug\Odyssey.csprojAssemblyReference.cache
+S:\League-of-Gems\Taller Unity Tec\OdysseyMedia\Odyssey\obj\Debug\Interop.WMPLib.dll
+S:\League-of-Gems\Taller Unity Tec\OdysseyMedia\Odyssey\obj\Debug\AxInterop.WMPLib.dll
+S:\League-of-Gems\Taller Unity Tec\OdysseyMedia\Odyssey\obj\Debug\Odyssey.csproj.ResolveComReference.cache
+S:\League-of-Gems\Taller Unity Tec\OdysseyMedia\Odyssey\obj\Debug\Odyssey.Form1.resources
+S:\League-of-Gems\Taller Unity Tec\OdysseyMedia\Odyssey\obj\Debug\Odyssey.Form2.resources
+S:\League-of-Gems\Taller Unity Tec\OdysseyMedia\Odyssey\obj\Debug\Odyssey.Properties.Resources.resources
+S:\League-of-Gems\Taller Unity Tec\OdysseyMedia\Odyssey\obj\Debug\Odyssey.csproj.GenerateResource.cache
+S:\League-of-Gems\Taller Unity Tec\OdysseyMedia\Odyssey\obj\Debug\Odyssey.csproj.CoreCompileInputs.cache
+S:\League-of-Gems\Taller Unity Tec\OdysseyMedia\Odyssey\obj\Debug\Odyssey.csproj.CopyComplete
+S:\League-of-Gems\Taller Unity Tec\OdysseyMedia\Odyssey\obj\Debug\Odyssey.exe
+S:\League-of-Gems\Taller Unity Tec\OdysseyMedia\Odyssey\obj\Debug\Odyssey.pdb
