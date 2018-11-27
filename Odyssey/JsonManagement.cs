@@ -14,7 +14,7 @@ namespace Odyssey
         public string JsonSerialization0(string videoBytes, Metadata videoMetadata)
         {
             dynamic uploadObject = new ExpandoObject();
-            uploadObject.OpCode = 0;
+            uploadObject.Opcode = 0;
             uploadObject.VideoBytes = videoBytes;
             uploadObject.Name = videoMetadata.GetName();
             uploadObject.Director = videoMetadata.GetDirector();
@@ -28,7 +28,7 @@ namespace Odyssey
         public string JsonSerialization1(string videoName)
         {
             dynamic playObject = new ExpandoObject();
-            playObject.OpCode = 1;
+            playObject.Opcode = 1;
             playObject.VideoName = videoName;
             string result1 = JsonConvert.SerializeObject(playObject);
             return result1;
@@ -57,10 +57,17 @@ namespace Odyssey
         public string JsonSerialization3(string videoName)
         {
             dynamic deleteObject = new ExpandoObject();
-            deleteObject.OpCode = 3;
+            deleteObject.Opcode = 3;
             deleteObject.VideoName = videoName;
             string result3 = JsonConvert.SerializeObject(deleteObject);
             return result3;
+        }
+
+        public bool JsonDeserialization(string jsonResponse)
+        {
+            var jsonObject = JsonConvert.DeserializeObject<dynamic>(jsonResponse);
+            bool confirmation = jsonObject.Bool;
+            return confirmation;
         }
 
     }
